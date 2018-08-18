@@ -6,8 +6,8 @@ def assign_variable(value)
   name = "Bob"
 end
 
-def argue
-  argue
+def argue(butwhy)
+  butwhy
 end
 
 def greeting(salutation, name)
@@ -23,5 +23,5 @@ def last_evaluated_value
 end
 
 def pizza_party(topping="cheese")
-
+ topping
 end
